@@ -66,7 +66,9 @@ export default {
         },
         {
           text: '表单组件',
-          items: [],
+          items: [
+            { text: 'Switch 开关', link: '/components/switch/' },
+          ],
         },
         {
           text: '提示组件',
