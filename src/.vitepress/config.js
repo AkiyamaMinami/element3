@@ -48,12 +48,14 @@ export default {
         {
           text: '通用组件',
           items: [
+
             { text: 'Button 按钮', link: '/components/button/' },
             { text: 'Divider 分割线', link: '/components/divider/' },
             { text: 'Avatar 头像', link: '/components/avatar/' },
             { text: 'Link 链接', link: '/components/link/' },
             { text: 'Icon 图标', link: '/components/icon/' },
             { text: 'Empty 无内容', link: '/components/empty/' },
+            { text: 'Grid', link: '/components/grid/' },
             { text: 'Tag 标签', link: '/components/tag/' },
           ],
         },
@@ -68,6 +70,7 @@ export default {
           text: '表单组件',
           items: [
             { text: 'Switch 开关', link: '/components/switch/' },
+            { text: 'Radio 单选框', link: '/components/radio/' },
           ],
         },
         {
@@ -79,6 +82,7 @@ export default {
           items: [
             { text: 'Badge 标记', link: '/components/badge/' },
             { text: 'Card 卡片', link: '/components/card/' },
+            { text: 'Progress 进度条', link: '/components/progress/' },
           ],
         },
         {

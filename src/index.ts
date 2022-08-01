@@ -5,6 +5,7 @@ import { ElLink } from './components/link/'
 import { ElIcon } from './components/icon/'
 import { ElBadge } from './components/badge/'
 import { ElAlert } from './components/alert'
+import { ElProgress } from './components/progress'
 
 import {
   ElAside,
@@ -20,9 +21,13 @@ import {
 import { ElEmpty } from './components/empty/'
 import { ElCard } from './components/card/'
 import { ElButton } from './components/button/'
+import { ElGrid, ElGridItem } from './components/grid/'
 import { ElTag } from './components/tag/'
 import { ElForm } from './components/form/'
 import { ElSwitch } from './components/switch/'
+import { ElRadio } from './components/radio/'
+import { ElRadioGroup } from './components/radioGroup/'
+import { ElRadioButton } from './components/radioButton/'
 import '/theme/src/icon.scss'
 
 const components = [
@@ -41,10 +46,16 @@ const components = [
   ElEmpty,
   ElCard,
   ElButton,
+  ElGrid,
+  ElGridItem,
   ElTag,
   ElAlert,
   ElForm,
   ElSwitch,
+  ElProgress,
+  ElRadio,
+  ElRadioGroup,
+  ElRadioButton,
 ]
 function install(app) {
   components.forEach((component) => {
@@ -73,9 +84,15 @@ export {
   ElEmpty,
   ElCard,
   ElButton,
+  ElGrid,
+  ElGridItem,
   ElTag,
   ElAlert,
   ElForm,
   ElSwitch,
+  ElProgress,
+  ElRadio,
+  ElRadioGroup,
+  ElRadioButton,
 }
 export default element3
